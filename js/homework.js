@@ -12,3 +12,16 @@ const birthYear = 1977;
 let currentYear = 2025;
 let myAge = currentYear - birthYear;
 console.log(`My age is ${myAge}.`);
+
+//Advanced
+//an array
+const myFavoriteFoods = ['cake', 'soup', 'potatoes'];
+//an object
+const student = {
+    firstName,
+    favoriteNumber,
+    likesCoding,
+    myFavoriteFoods
+};
+console.log(student);
+console.log(student.myFavoriteFoods);
